@@ -1,0 +1,11 @@
+{
+	"manifest_version": 3,
+	"name": "HN New Tabber",
+	"version": "1.0",
+	"description": "Opens Hacker News discussion links in a new tab",
+	"permissions": ["scripting"],
+	"host_permissions": ["https://news.ycombinator.com/*"],
+	"background": {
+		"service_worker": "background.js"
+	}
+}
